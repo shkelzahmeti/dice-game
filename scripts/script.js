@@ -78,7 +78,7 @@ btnHoldEl.addEventListener("click", function () {
       scores[activePlayer];
 
     // 2. If score >= 100
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= 100) {
       playing = false;
       // Current player wins
       document
